@@ -27,12 +27,12 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "node --test dist/index.test.js",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@stellar/stellar-sdk": "^16.1.0",
+    "@stellar/stellar-sdk": "^17.2.0",
     "buffer": "6.0.3"
   },
   "devDependencies": {
